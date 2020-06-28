@@ -1,0 +1,28 @@
+#GitHub Commands
+For Lab users => sudo su root
+
+#Github commmands
+mkdir GitSession
+cd GitSession
+git clone https://github.com/SaurabhDev/GitDemo.git
+ls
+cd GitDemo
+git status
+
+############################## Commit files ###################
+touch 1.txt
+ls
+git add 1.txt
+git commit -m "Added 1.txt"
+git push origin master
+
+########### It will prompt for userid and password 
+############ repeat the steps from 13 - 16 and change the file name to anythi
+
+git pull
+# If it prompts with merge window
+Esc + : + wq! #:wq!
+
+################################### Branching Strategy ################################
+git checkout -b Paymentgateway # Create a new Branch
+git push -u origin "Paymentgateway"
